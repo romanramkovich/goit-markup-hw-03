@@ -73,6 +73,11 @@ a {
   color: var(--primary-text-color);
 }
 
+.active {
+  color: var(--accent-color);
+}
+
+
 /* Site nav */
 .main-nav {
   display: flex;
@@ -121,6 +126,7 @@ a {
 .auth-link:focus {
   color: var(--accent-color);
 }
+
 
 /* Hero */
 .hero {
@@ -326,7 +332,6 @@ a {
 
   color: var(--primary-text-color);
   background-color: var(--grey-color);
-  box-shadow: var(--shadow);
 
   font-weight: 500;
   font-size: 16px;
@@ -341,6 +346,7 @@ a {
 .button.filter:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: var(--shadow);
 }
 
 .portfolio-project {
